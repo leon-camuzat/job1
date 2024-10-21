@@ -1,0 +1,24 @@
+.flex-container { 
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.flex-items {
+   padding: 10px;
+
+}
+
+.flex-container2 {display:flex;
+    max-width: 1000px;
+    min-height: 60px;
+    margin: 0 auto;
+    background: grey;
+    flex-direction: row;
+    justify-content: center;
+    border: 10px; color: white;
+    border-top :10px;}

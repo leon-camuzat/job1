@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Déclaration du type de document et spécification de la langue en français. -->
+
+<head>
+    <meta charset="UTF-8"> 
+    <!-- Définit l'encodage des caractères de la page en UTF-8 pour un affichage correct. -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Contrôle la mise en page sur les appareils mobiles en adaptant la largeur. -->
+    
+    <link rel="stylesheet" type="text/css" href="style-entreprise.css"> 
+    <!-- Lien vers la feuille de style principale pour la mise en forme. -->
+
+    <link rel="stylesheet" href="flexbox-entreprise.css">
+    <!-- Lien vers une feuille de style supplémentaire, potentiellement pour le layout. -->
+
+    <title>Entreprise</title>
+    <!-- Titre de la page affiché dans l'onglet du navigateur. -->
+</head>
+
+<style>
+    /* Style pour le texte */
+    .description {
+        font-family: fantasy; /* Définit la police du texte. */
+        color: black; /* Définit la couleur du texte. */
+        font-size: 16px; /* Définit la taille de la police. */
+        line-height: 1.5; /* Définit l'espacement entre les lignes. */
+        margin: 10px 0; /* Ajoute de l'espace vertical autour des éléments. */
+    }
+</style>
+
+<body>
+
+    <header> 
+        <nav class="nav"> <!-- Début de la navigation principale. -->
+            <div class="flex-container"> <!-- Conteneur flexible pour les éléments de navigation. -->
+                <div class="flex-items"><a href="Index.html">Home</a></div>
+                <!-- Lien vers la page d'accueil. -->
+                <div class="flex-items"><a href="Entreprise.html">Entreprise</a></div>
+                <!-- Lien vers la page Entreprise. -->
+                <div class="flex-items"><a href="Realisation.html">Réalisations</a></div>
+                <!-- Lien vers la page des réalisations. -->
+                <div class="flex-items"><a href="Contact.html">Contact</a></div>
+                <!-- Lien vers la page de contact. -->
+                <div class="flex-items">
+                    <form class="moteur"> <!-- Formulaire de recherche. -->
+                        <input type="text" name="text" class="search" placeholder="Recherchez ici!">
+                        <!-- Champ de saisie pour la recherche. -->
+                        <input type="submit" name="submit" class="submit" value="Search">
+                        <!-- Bouton pour soumettre la recherche. -->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="h1">Découvrez Notre Équipe</h1>
+    <!-- Titre principal de la section, présentant l'équipe. -->
+
+    <div class="mosaic"> <!-- Conteneur pour les présentations de l'équipe. -->
+        <figure>
+            <figcaption><p class="description">Élodie</p></figcaption>
+            <!-- Nom de la première personne. -->
+            <img src="Fleuriste-1.jpg" class="image" width="100%" alt="Bouquet de fleurs">
+            <!-- Image d'Élodie avec description. -->
+            <p class="description">
+                Spécialiste des arrangements floraux modernes, Élodie transforme chaque bouquet en une œuvre d'art. Sa passion pour les fleurs se ressent dans chaque création.
+            </p>
+            <!-- Description d'Élodie. -->
+        </figure>
+        
+        <figure>
+            <figcaption><p class="description">Jessica</p></figcaption>
+            <!-- Nom de la deuxième personne. -->
+            <img src="Fleuriste-2jpg.jpg" class="image" width="100%" alt="Bouquet de fleurs">
+            <!-- Image de Jessica. -->
+            <p class="description">
+                Jessica, la magicienne des couleurs, crée des compositions vibrantes et uniques. Elle sait marier les fleurs pour célébrer chaque occasion avec style.
+            </p>
+            <!-- Description de Jessica. -->
+        </figure>
+        
+        <figure>
+            <figcaption><p class="description">Bastien</p></figcaption>
+            <!-- Nom de la troisième personne. -->
+            <img src="Fleuriste-3.jpg" class="image" width="100%" alt="Bouquet de fleurs">
+            <!-- Image de Bastien. -->
+            <p class="description">
+                Avec un flair pour le design minimaliste, Bastien propose des bouquets élégants et raffinés. Son approche est inspirée par la nature, offrant une touche de sérénité.
+            </p>
+            <!-- Description de Bastien. -->
+        </figure>
+        
+        <figure>
+            <figcaption><p class="description">Cécile</p></figcaption>
+            <!-- Nom de la quatrième personne. -->
+            <img src="fleuriste-4.jpg" class="image" width="100%" alt="Bouquet de fleurs">
+            <!-- Image de Cécile. -->
+            <p class="description">
+                Cécile est la reine des compositions personnalisées. Écoute attentive et créativité font de chaque commande une expérience unique, parfaite pour vos moments spéciaux.
+            </p>
+            <!-- Description de Cécile. -->
+        </figure>
+    </div>
+
+</body>
+</html>

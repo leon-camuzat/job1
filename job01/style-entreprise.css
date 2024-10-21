@@ -1,0 +1,22 @@
+.h1 { text-align: center; font-family: fantasy; color: red;}
+.nav {font-family: fantasy; color: blue;}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+.p {font-family: fantasy; color: red;}
+
+.flex-container {
+    display: flex;
+    margin-top: 0px; /* Ajuste la valeur selon tes besoins */
+    margin-left: 0px;  /* Ajuste la valeur selon tes besoins */
+    margin-right: 0px; /* Ajuste la valeur selon tes besoins */
+}
+
+body {background-color:lightblue ;}
+
+.image {
+    border: 5px solid #fff;} /* Bordure blanche */

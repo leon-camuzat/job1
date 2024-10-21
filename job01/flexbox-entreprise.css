@@ -1,0 +1,42 @@
+.flex-container { 
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.flex-items {
+   padding: 10px;
+
+}
+
+.mosaic {
+    display: flex;
+    flex-direction:column; /* Aligne les rangées verticalement */
+    align-items:center; /* Centre horizontalement */
+    gap: 20px; /* Espace entre les rangées */
+    border-radius: 15px;
+}
+
+.row {
+    display: flex; /* Aligne les figures horizontalement dans chaque rangée */
+    justify-content: space-between; /* Espace égal entre les figures */
+    width: 50%; /* La rangée prend toute la largeur */
+    max-width: 800px; /* Largeur maximale de la mosaïque */
+    border-radius: 15px;
+}
+
+figure {
+    width: 48%; /* Chaque figure prend presque la moitié de la rangée */
+    margin: 0; /* Enlève les marges par défaut */
+    margin: 10px; /* Ajoute un espacement autour de chaque figure */
+    text-align: center; /* Centre le texte dans chaque figure */
+    border-radius: 15px;
+}
+
+figcaption {
+    margin-bottom: 5px; /* Ajoute un espace entre le texte et l'image */
+}

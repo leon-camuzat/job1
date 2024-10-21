@@ -1,0 +1,63 @@
+.flex-container { 
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.flex-items {
+   padding: 10px;
+
+}
+
+.flex-container2 {display:flex;
+    max-width: 1000px;
+    min-height: 60px;
+    margin: 0 auto;
+    background: grey;
+    flex-direction: row;
+    justify-content: center;
+    border: 10px; color: white;
+    border-top :10px;}
+
+
+.mosaic {
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+html, body {
+    height: 100%; /* Assure que le body prend toute la hauteur de la page */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Dispose les enfants en colonne */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+.mosaic {
+    flex: 1; /* Permet à la mosaïque de prendre l'espace disponible */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.mosaic img {
+    width: calc(25% - 10px); /* Ajuste la largeur pour quatre images par ligne */
+    margin: 5px; /* Marge autour des images */
+    box-sizing: border-box;
+    border-radius: 15px; /* Arrondi les bords des images */
+}
+
+.flex-container {
+    /* Ajoute ici tes styles pour le flex-container */
+}
